@@ -9,7 +9,8 @@ SUBDIRS = base matrix util feat tree thread gmm transform sgmm \
           fstext hmm lm decoder lat cudamatrix nnet \
           bin fstbin gmmbin fgmmbin sgmmbin featbin \
           nnetbin latbin sgmm2 sgmm2bin nnet2 nnet2bin kwsbin \
-          ivector ivectorbin online2 online2bin lmbin
+          ivector ivectorbin online2 online2bin lmbin \
+          python
 
 MEMTESTDIRS = base matrix util feat tree thread gmm transform sgmm \
           fstext hmm lm decoder lat nnet \
@@ -173,3 +174,4 @@ online2bin: base matrix util feat tree optimization gmm transform sgmm sgmm2 fst
 online: decoder
 online2: decoder
 kwsbin: fstext lat base util
+python: base util matrix tree
