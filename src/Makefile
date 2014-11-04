@@ -174,4 +174,4 @@ online2bin: base matrix util feat tree optimization gmm transform sgmm sgmm2 fst
 online: decoder
 online2: decoder
 kwsbin: fstext lat base util
-python: base util matrix tree
+python: base matrix util feat tree optimization gmm transform sgmm sgmm2 fstext hmm lm decoder lat cudamatrix nnet nnet2 online2
