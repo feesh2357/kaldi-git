@@ -33,4 +33,6 @@ clean:
 depend:
 	-$(CXX) $(PYINC) $(NPINC) -M $(CXXFLAGS) *.cpp > .depend.mk  
 
+test:
+
 all: $(PYLIBS)
