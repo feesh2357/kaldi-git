@@ -12,10 +12,10 @@
 # export big_memory_cmd="queue.pl -l arch=*64,ram_free=8G,mem_free=8G"
 # export cuda_cmd="queue.pl -l gpu=1"
 
-export train_cmd="utils/slurm.pl -n 2 -p partlaball"
-export decode_cmd="utils/slurm.pl -n 2 -p partlaball"
-export mkgraph_cmd="utils/slurm.pl -n 2 -p partlaball"
-export big_memory_cmd="utils/slurm.pl -n 2 -p partlaball"
+export train_cmd="utils/slurm.pl -n 2 -p partcymes,part137,part110"
+export decode_cmd="utils/slurm.pl -n 2 -p partcymes,part137,part110"
+export mkgraph_cmd="utils/slurm.pl -n 2 -p partcymes,part137,part110"
+export big_memory_cmd="utils/slurm.pl -n 2 -p partcymes,part137,part110"
 export cuda_cmd="utils/slurm.pl -n 2 -p part110"
 
 
