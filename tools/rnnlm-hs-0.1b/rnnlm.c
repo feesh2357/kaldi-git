@@ -20,7 +20,7 @@
 #include <pthread.h>
 #include <assert.h>
 
-#define MAX_STRING 100
+#define MAX_STRING 256
 #define MAX_SENTENCE_LENGTH 10000
 #define MAX_CODE_LENGTH 40
 
